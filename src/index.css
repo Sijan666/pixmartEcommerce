@@ -4,4 +4,5 @@
 @theme {
     --font-jakarta: "Plus Jakarta Sans", sans-serif; 
     --shadow-newMade: 0 28px 30px rgba(99, 122, 166, 0.05);
+    --background-image-new: linear-gradient(180deg, #F0F6FD 0%, rgba(255, 255, 255, 0) 100%);
 }
