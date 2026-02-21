@@ -28,6 +28,7 @@ const FeaturedWork = () => {
                                 productDescTwo={'UI Kits'}
                             />
                         </div>
+                        {/* product 2 */}
                         <div className="">
                             <ProductOne className={''}
                                 productImg={product}
