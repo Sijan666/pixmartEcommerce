@@ -20,6 +20,7 @@ const Header = () => {
                             <Images imgSrc={logo}/>
                         </div>
                         {/* logo part */}
+                        {/* nav bar */}
                         <nav>
                             <ul className="flex items-center gap-x-8">
                                 <li className="cursor-pointer">
