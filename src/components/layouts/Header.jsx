@@ -50,6 +50,7 @@ const Header = () => {
                                 </li>
                             </ul>
                         </nav>
+                        {/* nav bar end here */}
                     </Flex>
                     <div className="socialIcons flex gap-x-2 items-center">
                         <div className="p-3 bg-[#F0F6FD] rounded-full text-[#0F73F6] hover:bg-[#0F73F6] duration-300 hover:text-white cursor-pointer">
