@@ -5,6 +5,7 @@ import Flex from "../Flex"
 import Images from "../Images"
 import logo from '/logo.png'
 import { LiaUser } from "react-icons/lia"
+import { Link } from "react-router-dom"
 
 
 const Header = () => {
@@ -19,11 +20,31 @@ const Header = () => {
                         </div>
                         <nav>
                             <ul className="flex items-center gap-x-8">
-                                <li>About</li>
-                                <li>Products</li>
-                                <li>Creators</li>
-                                <li>Blog</li>
-                                <li>Contact</li>
+                                <li className="cursor-pointer">
+                                    <Link to={'/'}>
+                                        About
+                                    </Link>
+                                </li>
+                                <li className="cursor-pointer">
+                                    <Link to={'/'}>
+                                        Products
+                                    </Link>
+                                </li>
+                                <li className="cursor-pointer">
+                                    <Link to={'/'}>
+                                        Creators
+                                    </Link>
+                                </li>
+                                <li className="cursor-pointer">
+                                    <Link to={'/'}>
+                                        Blog
+                                    </Link>
+                                </li>
+                                <li className="cursor-pointer">
+                                    <Link to={'/'}>
+                                        Contact
+                                    </Link>
+                                </li>
                             </ul>
                         </nav>
                     </Flex>
