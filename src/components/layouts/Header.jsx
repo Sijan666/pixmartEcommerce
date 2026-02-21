@@ -12,7 +12,7 @@ const Header = () => {
     return (
         <>
         <header className="header py-8">
-            <Container>
+            <Container className={'px-2'}>
                 <Flex className={'lg:justify-between flex flex-col lg:flex-row gap-y-8'}>
                     <Flex className={'lg:gap-x-14 flex flex-col lg:flex-row gap-y-8'}>
                         <div className="logo">
