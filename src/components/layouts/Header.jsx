@@ -15,6 +15,7 @@ const Header = () => {
             <Container className={'px-2'}>
                 <Flex className={'lg:justify-between flex flex-col lg:flex-row gap-y-8'}>
                     <Flex className={'lg:gap-x-14 flex flex-col lg:flex-row gap-y-8'}>
+                        {/* logo part */}
                         <div className="logo">
                             <Images imgSrc={logo}/>
                         </div>
