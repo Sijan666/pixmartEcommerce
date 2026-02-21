@@ -9,8 +9,10 @@ const Banner = () => {
         <>
         <section className="banner py-20 bg-new">
             <Container className={'text-center px-2'}>
+                {/* common tag */}
                 <h1 className="lg:text-[60px] text-[30px] font-bold lg:px-60 text-black pb-5">Unleash Your Creativity to Utmost <span className="text-[#0F73F6]">Potential</span> with Us</h1>
                 <p className="lg:text-[20px] text-base text-[#222222]/80">Discover the building blocks of your next masterpiece: premium digital assets at your fingertips.</p>
+                {/* common tag */}
                 {/* input */}
                 <div className="pt-8 flex gap-x-3 gap-y-3 lg:justify-center justify-normal flex-col lg:flex-row pb-20">
                     <input type="text" placeholder="Find fonts, templates, illustrations, and more…" className="px-8 py-6 bg-white rounded-[10px] outline-none lg:w-[436px] " />
