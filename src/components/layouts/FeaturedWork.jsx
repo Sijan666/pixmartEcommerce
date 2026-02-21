@@ -18,6 +18,7 @@ const FeaturedWork = () => {
                 {/* heading title */}
                 <div className="pt-12">
                     <Flex className={'lg:justify-between flex flex-col lg:flex-row gap-y-5'}>
+                        {/* product 1 */}
                         <div className="">
                             <ProductOne className={''}
                                 productImg={product}
