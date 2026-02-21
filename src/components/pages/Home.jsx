@@ -1,5 +1,6 @@
 
 import Banner from "../layouts/Banner"
+import FeaturedWork from "../layouts/FeaturedWork"
 import Products from "../layouts/Products"
 
 
@@ -8,6 +9,7 @@ const Home = () => {
         <>
         <Banner/>
         <Products/>
+        <FeaturedWork/>
         </>
     )
 }
