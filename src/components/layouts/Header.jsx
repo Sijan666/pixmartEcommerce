@@ -52,7 +52,7 @@ const Header = () => {
                         </nav>
                         {/* nav bar end here */}
                     </Flex>
-                    {/* social icon */}
+                    {/* social icon start here */}
                     <div className="socialIcons flex gap-x-2 items-center">
                         <div className="p-3 bg-[#F0F6FD] rounded-full text-[#0F73F6] hover:bg-[#0F73F6] duration-300 hover:text-white cursor-pointer">
                             <LiaUser size={20}/>
@@ -61,6 +61,7 @@ const Header = () => {
                             <GrShop  size={20}/>
                         </div>
                     </div>
+                    {/* social icon end here */}
                 </Flex>
             </Container>
         </header>
