@@ -1,7 +1,7 @@
 import Button from "../Button"
 import Container from "../Container"
 import Images from "../Images"
-import banneImg from '../../assets/bannerImg.png'
+import bannerImg from '../../assets/bannerImg.png'
 
 
 const Banner = () => {
@@ -21,7 +21,7 @@ const Banner = () => {
                 {/* input */}
                 {/* img */}
                 <div className="px-2">
-                    <Images imgSrc={banneImg} className={'w-full'}/>
+                    <Images imgSrc={bannerImg}/>
                 </div>
                 {/* img */}
             </Container>
