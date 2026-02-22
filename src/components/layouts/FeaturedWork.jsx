@@ -3,7 +3,8 @@ import Container from '../Container'
 import { LuChevronRight } from 'react-icons/lu'
 import Flex from '../Flex'
 import product from '../../assets/product.png'
-import ProductOne from '../productOne'
+import ProductOne from '../ProductOne'
+
 
 const FeaturedWork = () => {
     return (

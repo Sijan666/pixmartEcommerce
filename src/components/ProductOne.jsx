@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Flex from './Flex'
 import { LuDot } from 'react-icons/lu'
 import Images from './Images'
